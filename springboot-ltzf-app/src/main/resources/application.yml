@@ -1,0 +1,5 @@
+spring:
+  config:
+    name: springboot-ltzf
+  profiles:
+    active: dev

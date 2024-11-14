@@ -1,0 +1,17 @@
+server:
+  port: 7601
+
+ltzf:
+  sdk:
+    config:
+      enabled: true
+      app_id: 1109501
+      merchant_id: 1698731613
+      partner_key: "92e72771d4d3e75de9086c2e5e2a27e3"
+
+
+# 日志
+logging:
+  level:
+    root: info
+  config: classpath:logback-spring.xml
